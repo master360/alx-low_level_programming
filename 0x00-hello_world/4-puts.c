@@ -1,12 +1,12 @@
-#!/bin/bash
-      #include <stdio.h>
+#include <stdio.h>
     /**
-     *main-Entry point 
-     *
-     *Return: Always 0(Success) 
-     */
-     *int main(void)
-     {
+     * main - Entry point
+     * Description:A C program that prints with put function
+     * Return: Always 0(Success)
+    */
+     * int main(void)
+         {
          printf("Programming is like building a multilingual puzzle\n");
          return (0);
-     }
+         }
+
