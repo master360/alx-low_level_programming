@@ -1,13 +1,22 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: Prints the alphabet in lowercase using putchar
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char c;
+    char letter = 'a';
 
-    for (c = 'a'; c <= 'z'; c++)
-        putchar(c);
+    while (letter <= 'z')
+    {
+        putchar(letter);
+        letter++;
+    }
     putchar('\n');
 
-    return (0);
+    return 0;
 }
-
