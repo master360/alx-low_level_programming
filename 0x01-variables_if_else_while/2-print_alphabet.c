@@ -1,13 +1,13 @@
+#include <stdio.h>
+
 int main(void)
 {
-  char letter;
+    char c;
 
-  /* print lowercase alphabet */
-  for (letter = 'a'; letter <= 'z'; letter++)
-    putchar(letter);
+    for (c = 'a'; c <= 'z'; c++)
+        putchar(c);
+    putchar('\n');
 
-  /* print new line */
-  putchar('\n');
-
-  return (0);
+    return (0);
 }
+
