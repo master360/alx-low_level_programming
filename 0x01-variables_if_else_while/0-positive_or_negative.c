@@ -1,5 +1,3 @@
-$ betty-style.pl 0-positive_or_negative.c
-$ betty-doc.pl 0-positive_or_negative.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
