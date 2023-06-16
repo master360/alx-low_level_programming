@@ -2,8 +2,8 @@ int main(void)
 {
   char letter;
 
-  /* print lowercase alphabet in reverse order */
-  for (letter = 'z'; letter >= 'a'; letter--)
+  /* print lowercase alphabet */
+  for (letter = 'a'; letter <= 'z'; letter++)
     putchar(letter);
 
   /* print new line */
