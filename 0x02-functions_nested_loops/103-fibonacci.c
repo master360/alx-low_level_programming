@@ -2,24 +2,22 @@
 
 int main(void)
 {
-    int sum = 0;
-    int first = 1;
-    int second = 2;
+    int fib1 = 1, fib2 = 2, fib3;
+    int sum = 2; // Start with 2 since the second term is even
+    int max = 4000000;
 
-    while (second <= 4000000)
+    while (fib2 <= max)
     {
-        if (second % 2 == 0)
+        fib3 = fib1 + fib2;
+        if (fib3 % 2 == 0)
         {
-            sum += second;
+            sum += fib3;
         }
-
-        int next = first + second;
-        first = second;
-        second = next;
+        fib1 = fib2;
+        fib2 = fib3;
     }
 
     printf("%d\n", sum);
 
-    return (0);
+    return 0;
 }
-
