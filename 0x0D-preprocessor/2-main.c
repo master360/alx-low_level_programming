@@ -11,7 +11,7 @@
 
  */
 
-int ain(void)
+int main(void)
 
 {
 
